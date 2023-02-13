@@ -24,7 +24,7 @@ csr = {}
 
 for x in variable:
     FullName = (x[1] + x[2])
-    Salary = (x[5])
+    Salary = int(x[5])
     Title = (x[4])
 
 print('FullName', 'Salary')
